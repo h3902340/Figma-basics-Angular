@@ -1,0 +1,486 @@
+:host { 
+  display: contents; 
+}
+.profile-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.profile-profile {
+  width: 100%;
+  height: 812px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.profile-rectangle {
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 812px;
+  position: absolute;
+}
+.profile-ellipse {
+  top: 76px;
+  left: 124px;
+  width: 128px;
+  height: 128px;
+  position: absolute;
+}
+.profile-text {
+  top: 236px;
+  left: 142px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Comfortaa;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.profile-text02 {
+  top: 292px;
+  left: 121px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Black;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 900;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.profile-rectangle2 {
+  top: 491px;
+  left: 16px;
+  width: 167px;
+  height: 220px;
+  position: absolute;
+}
+.profile-rectangle25 {
+  top: 1130px;
+  left: 192px;
+  width: 167px;
+  height: 220px;
+  position: absolute;
+}
+.profile-rectangle21 {
+  top: 491px;
+  left: 192px;
+  width: 167px;
+  height: 310px;
+  position: absolute;
+}
+.profile-rectangle23 {
+  top: 811px;
+  left: 192px;
+  width: 167px;
+  height: 310px;
+  position: absolute;
+}
+.profile-rectangle24 {
+  top: 1040px;
+  left: 16px;
+  width: 167px;
+  height: 310px;
+  position: absolute;
+}
+.profile-rectangle22 {
+  top: 721px;
+  left: 16px;
+  width: 167px;
+  height: 310px;
+  position: absolute;
+}
+.profile-button {
+  top: 1382px;
+  left: 16px;
+  width: 343px;
+  height: 52px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.profile-rectangle21 {
+  top: 0px;
+  left: 0px;
+  width: 343px;
+  height: 52px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 6px;
+}
+.profile-text04 {
+  top: 19px;
+  left: 137.28741455078125px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Black;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 900;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.profile-button1 {
+  top: 339px;
+  left: 16px;
+  width: 343px;
+  height: 52px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.profile-rectangle22 {
+  top: 0px;
+  left: 0px;
+  width: 343px;
+  height: 52px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 6px;
+}
+.profile-text06 {
+  top: 19px;
+  left: 125.28742218017578px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Black;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 900;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.profile-button2 {
+  top: 407px;
+  left: 16px;
+  width: 343px;
+  height: 52px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.profile-rectangle23 {
+  top: 0px;
+  left: 0px;
+  width: 343px;
+  height: 52px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 6px;
+}
+.profile-text08 {
+  top: 19px;
+  left: 139.28741455078125px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Black;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 900;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.profile-status-bar {
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 44px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.profile-ui {
+  top: 15px;
+  left: 293px;
+  width: 68px;
+  height: 16px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.profile-battery {
+  top: 2px;
+  left: 43px;
+  width: 25px;
+  height: 12px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.profile-border {
+  top: 0.3333333432674408px;
+  left: 6.8209999280755e-13px;
+  width: 22px;
+  height: 11px;
+  opacity: 0.35;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2.6666667461395264px;
+}
+.profile-cap {
+  top: 4px;
+  left: 23px;
+  width: 1px;
+  height: 4px;
+  opacity: 0.40;
+  position: absolute;
+}
+.profile-capacity {
+  top: 2.3333332538604736px;
+  left: 2px;
+  width: 18px;
+  height: 7px;
+  position: absolute;
+  border-radius: 1.3333333730697632px;
+}
+.profile-wifi {
+  top: 1px;
+  left: 20px;
+  width: 21px;
+  height: 15px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.profile-wifi1 {
+  top: 1.3333333730697632px;
+  left: 2.6666667461395264px;
+  width: 15px;
+  height: 11px;
+  position: absolute;
+}
+.profile-cell {
+  top: 2px;
+  left: 0px;
+  width: 18px;
+  height: 12px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.profile-cell1 {
+  top: 0.6666666865348816px;
+  left: 0.6666666865348816px;
+  width: 17px;
+  height: 11px;
+  position: absolute;
+}
+.profile-time {
+  top: 8px;
+  left: 21px;
+  width: 56px;
+  height: 23px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.profile-text10 {
+  top: 6px;
+  left: 0.3333333432674408px;
+  color: rgba(0, 0, 0, 1);
+  width: 54px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Semibold;
+  text-align: center;
+  font-family: SF Pro Text;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.profile-tab-bar {
+  top: 729px;
+  left: 0px;
+  width: 375px;
+  height: 83px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.profile-background {
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 83px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.profile-background1 {
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 83px;
+  position: absolute;
+}
+.profile-home {
+  top: 9px;
+  left: 11px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.profile-union {
+  top: 13px;
+  left: 12px;
+  width: 16px;
+  height: 14px;
+  position: absolute;
+}
+.profile-search {
+  top: 9px;
+  left: 82px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.profile-union1 {
+  top: 12px;
+  left: 12px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
+.profile-upload {
+  top: 9px;
+  left: 153px;
+  width: 70px;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.profile-rectangle1 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 40px;
+  position: absolute;
+  border-radius: 20px;
+}
+.profile-union2 {
+  top: 13.5px;
+  left: 28.5px;
+  width: 13px;
+  height: 13px;
+  position: absolute;
+}
+.profile-chat {
+  top: 9px;
+  left: 254px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.profile-union3 {
+  top: 12px;
+  left: 10px;
+  width: 18px;
+  height: 16px;
+  position: absolute;
+}
+.profile-profile1 {
+  top: 9px;
+  left: 324px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.profile-person {
+  top: 12px;
+  left: 15px;
+  width: 10.434782981872559px;
+  height: 15.00001049041748px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.profile-ellipse1 {
+  top: 8.478271484375px;
+  left: 0px;
+  width: 10px;
+  height: 7px;
+  position: absolute;
+}
+.profile-ellipse2 {
+  top: 4.547473508864641e-13px;
+  left: 1.304443359375px;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+.profile-shape {
+  top: 70px;
+  left: 120px;
+  width: 135px;
+  height: 5px;
+  position: absolute;
+  border-radius: 10px;
+}
